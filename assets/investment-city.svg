@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 530" role="img" aria-labelledby="title desc">
+<title id="title">CINDY investment city</title><desc id="desc">Animated royal-blue isometric portfolio with bond certificates, fund units, growth bars and coins.</desc>
+<defs>
+ <linearGradient id="top" x2="1" y2="1"><stop stop-color="#f3f8ff"/><stop offset="1" stop-color="#bfdaff"/></linearGradient>
+ <linearGradient id="left" x2="0" y2="1"><stop stop-color="#7cafff"/><stop offset="1" stop-color="#4f79f4"/></linearGradient>
+ <linearGradient id="right" x2="0" y2="1"><stop stop-color="#4e7ef9"/><stop offset="1" stop-color="#244bd9"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#eff9ff" stop-opacity=".94"/><stop offset="1" stop-color="#a9d2ff" stop-opacity=".85"/></linearGradient>
+ <linearGradient id="coin" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#adcaff"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<style>
+ .float{animation:float 6s ease-in-out infinite}.float2{animation:float 7s ease-in-out infinite;animation-delay:-2s}.float3{animation:float 5s ease-in-out infinite;animation-delay:-1s}.beam{stroke-dasharray:12 20;animation:flow 7s linear infinite}.glow{animation:glow 4s ease-in-out infinite}.bar{animation:enter 1.3s cubic-bezier(.2,.7,.2,1) both;transform-box:fill-box;transform-origin:bottom}.bar2{animation-delay:.2s}.bar3{animation-delay:.4s}
+ @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}@keyframes flow{to{stroke-dashoffset:-128}}@keyframes glow{50%{opacity:.4}}@keyframes enter{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<ellipse cx="325" cy="422" rx="230" ry="58" fill="#1436b6" opacity=".3" filter="url(#blur)"/>
+<g fill="none" stroke="#8cacff" stroke-width="1" opacity=".23"><path d="M45 276 318 120 592 277 317 434Z"/><path d="m90 303 273-157M135 329l273-157M180 355l273-157M225 381l273-157M90 250l273 157M135 225l273 157M180 198l273 157M225 173l273 157"/></g>
+<g fill="#94b8ff" opacity=".14"><path d="m89 125 34-20 34 20v40l-34 20-34-20Z"/><path d="m489 135 22-13 22 13v26l-22 13-22-13Z"/><path d="m445 407 26-15 26 15v30l-26 15-26-15Z"/></g>
+<g fill="none" stroke="#b7d8ff" stroke-width="2.5"><path d="m143 309 116 67 85-49 107 62" opacity=".55"/><path d="m143 309 116 67 85-49 107 62" class="beam"/><path d="m204 209 119 69 112-65" opacity=".45"/><path d="m204 209 119 69 112-65" class="beam"/></g>
+<g class="float2">
+ <path d="m326 343 140-81 102 59v24l-140 81-102-59Z" fill="#2851de"/><path d="m326 343 140-81 102 59-140 81Z" fill="url(#top)"/><path d="m326 343 102 59v24l-102-59Z" fill="#7eacff"/>
+ <g class="bar"><path d="m354 314 27-16 26 15v51l-27 16-26-15Z" fill="url(#right)"/><path d="m354 314 27-16 26 15-27 16Z" fill="#f0f8ff"/><path d="m354 314 26 15v51l-26-15Z" fill="#7facff"/></g>
+ <g class="bar bar2"><path d="m407 250 27-16 26 15v83l-27 16-26-15Z" fill="url(#right)"/><path d="m407 250 27-16 26 15-27 16Z" fill="#f0f8ff"/><path d="m407 250 26 15v83l-26-15Z" fill="#8dbbff"/></g>
+ <g class="bar bar3"><path d="m460 179 27-16 26 15v122l-27 16-26-15Z" fill="url(#right)"/><path d="m460 179 27-16 26 15-27 16Z" fill="#f0f8ff"/><path d="m460 179 26 15v122l-26-15Z" fill="#a5ceff"/></g>
+ <path d="m371 290 63-66 52-68" fill="none" stroke="#d9f1ff" stroke-width="4" stroke-linecap="round"/><path d="m474 158 13-4-1 14" fill="none" stroke="#d9f1ff" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g>
+ <path d="m115 346 124-72 124 72v27l-124 72-124-72Z" fill="#244acc"/><path d="m115 346 124-72 124 72-124 72Z" fill="#c9e1ff"/><path d="m115 346 124 72v27l-124-72Z" fill="#719dfb"/>
+ <path d="m160 255 80-46 80 46v111l-80 46-80-46Z" fill="url(#right)"/><path d="m160 255 80-46 80 46-80 46Z" fill="url(#top)"/><path d="m160 255 80 46v111l-80-46Z" fill="url(#left)"/>
+ <g stroke="#bddbff" stroke-width="3" opacity=".65"><path d="m173 296 51 29M173 312l51 29M173 328l30 17"/></g><g fill="#cfE6ff"><path d="m260 319 12-7v15l-12 7Z"/><path d="m282 306 12-7v15l-12 7Z"/><path d="m260 345 12-7v15l-12 7Z"/><path d="m282 332 12-7v15l-12 7Z"/></g>
+</g>
+<g class="float">
+ <path d="m191 130 100-58 66 38v142l-100 58-66-38Z" fill="#2451df"/><path d="m191 130 66 38v142l-66-38Z" fill="#89b9ff"/><path d="m257 168 100-58v142l-100 58Z" fill="url(#glass)"/><path d="m191 130 100-58 66 38-100 58Z" fill="#edf7ff"/>
+ <path d="m273 174 66-38v91l-66 38Z" fill="#fff" opacity=".9"/>
+ <g stroke="#7d9fee" stroke-width="3" stroke-linecap="round"><path d="m284 181 42-24M284 193l42-24M284 205l27-16"/></g>
+ <ellipse cx="310" cy="228" rx="13" ry="19" transform="rotate(30 310 228)" fill="#3159ef"/>
+ <path d="m305 223 4 7 8-17" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m271 152 69-40" stroke="#d9eeff" stroke-width="2" opacity=".9"/>
+</g>
+<g class="float3">
+ <path d="m80 219 41-24 42 24v50l-41 24-42-24Z" fill="#244ed9"/><path d="m80 219 41-24 42 24-41 24Z" fill="#dbefff"/><path d="m80 219 41 24v50l-41-24Z" fill="#99c9ff"/>
+ <path d="m90 200 31-18 31 18v17l-31 18-31-18Z" fill="#5688f7"/><path d="m90 200 31-18 31 18-31 18Z" fill="#f3faff"/>
+ <path d="m99 181 22-13 22 13v16l-22 13-22-13Z" fill="#709dfb"/><path d="m99 181 22-13 22 13-22 13Z" fill="#f4fbff"/>
+ <path d="m136 253 13-8v12l-13 8Z" fill="#daeaff"/>
+</g>
+<g class="float3">
+ <ellipse cx="402" cy="125" rx="25" ry="36" transform="rotate(-27 402 125)" fill="#2249ce"/><ellipse cx="396" cy="121" rx="25" ry="36" transform="rotate(-27 396 121)" fill="url(#coin)"/>
+ <ellipse cx="396" cy="121" rx="19" ry="28" transform="rotate(-27 396 121)" fill="none" stroke="#6c99f7" stroke-width="2"/>
+ <text x="387" y="132" transform="rotate(-27 396 121)" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#3159ef">$</text>
+</g>
+<g class="float2"><ellipse cx="500" cy="393" rx="21" ry="30" transform="rotate(-27 500 393)" fill="#2249ce"/><ellipse cx="495" cy="389" rx="21" ry="30" transform="rotate(-27 495 389)" fill="url(#coin)"/><text x="488" y="398" transform="rotate(-27 495 389)" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#3159ef">$</text></g>
+<g class="glow" fill="#e7f5ff"><path d="m173 100 3-9 3 9 9 3-9 3-3 9-3-9-9-3Z"/><path d="m550 225 2-7 2 7 7 2-7 2-2 7-2-7-7-2Z"/><circle cx="83" cy="351" r="3"/><circle cx="345" cy="70" r="3"/></g>
+<g transform="translate(182 406)"><ellipse cx="0" cy="13" rx="12" ry="5" fill="#2047c8" opacity=".4"/><path d="M-5-17h10l2 20-7 4-7-4Z" fill="#d9edff"/><path d="m-4 5-1 12M4 5l1 12" stroke="#173cab" stroke-width="4" stroke-linecap="round"/><circle cy="-24" r="5" fill="#9bc9ff"/></g>
+<g transform="translate(534 300)"><ellipse cx="0" cy="13" rx="12" ry="5" fill="#2047c8" opacity=".4"/><path d="M-5-17h10l2 20-7 4-7-4Z" fill="#f4f9ff"/><path d="m-4 5-1 12M4 5l1 12" stroke="#173cab" stroke-width="4" stroke-linecap="round"/><circle cy="-24" r="5" fill="#9bc9ff"/></g>
+</svg>
